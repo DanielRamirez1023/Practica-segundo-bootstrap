@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavie Vital</title>
+
+    <!-- Bootstrap con css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Termina Bootstrap con css-->
+
+    <!-- cargar icons-->
+    <script src="https://kit.fontawesome.com/8df3538f46.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="jpg" href="./Imagenes/LogoSample_ByTailorBrands.jpg"> <!--poner logo een el head de la pagina -->
+    
+</head>
+<body>
+
+  <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="/Bootstrap-V3/index.html">
+            <img src="./Imagenes/LogoSample_ByTailorBrands.jpg" 
+            style="width: 40%"  alt="logo Daniel">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-2" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">Miembros</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <!-- TERMINA BARRA DE NAVEGACION -->
+
+      <!-- header main -->
+      <header class="main-header">
+        <div class="fondo text-dark py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6  text-center justify-content-center align-self-center"> 
+                <h1>¿Quienes somos?</h1>
+                <p>Somos una empresa familiar, que se constituye de varias farmacias! es basada en el buen servicio y el compromiso con el cliente, la amabilidad y economia son pilares fundamentales en cada una de nuestras farmacias, manejamos todo tipo de medicamentos con su respectivo registro invima. tambien se asesora correctamnete el buen consumo y uso de cada uno de los medicamentos, para asi brindar mayor seguridad y confianza.</p>
+                <a href="" class="btn btn-outline-secondary btn-lg" >Leer mas</a>
+              </div>
+                <div class="col-md-6">
+                  <img src="./Imagenes/09d4b99535c0b4606286fb4189d6b883.jpg"  alt="Imagen" class="img-fluid d-none d-sm-block ">
+                </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- news leter-->
+      <section>
+        <div class=" text-dark my-5">
+          <div class="container">
+            <div class="row">
+             <div class="col-md-4">
+               <input class="nombre  px-2 " type="text" placeholder="ingrese su nombre">
+             </div>
+             <div class="col-md-4">
+              <input class="nombre  px-2" type="email" placeholder="ingrese su correo electronico">
+             </div>
+             <div class="col-md-4">
+              <button class="btn btn-lg btn-primary btn-block"> Registrarse</button>
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- tarjetas -->
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h1>Tarjeta 1</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere reiciendis facilis sequi eaque animi similique iusto sit ex consectetur? Mollitia voluptatum dicta suscipit quisquam iusto voluptate nulla exercitationem quidem!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center bg-primary" >
+                <div class="card-body">
+                  <h1>Tarjeta 2</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere reiciendis facilis sequi eaque animi similique iusto sit ex consectetur? Mollitia voluptatum dicta suscipit quisquam iusto voluptate nulla exercitationem quidem!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center">
+                <div class="card-body">
+                  <h1>Tarjeta 3</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere reiciendis facilis sequi eaque animi similique iusto sit ex consectetur? Mollitia voluptatum dicta suscipit quisquam iusto voluptate nulla exercitationem quidem!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card text-center bg-primary" >
+                <div class="card-body" >
+                  <h1>Tarjeta 4</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus facere reiciendis facilis sequi eaque animi similique iusto sit ex consectetur? Mollitia voluptatum dicta suscipit quisquam iusto voluptate nulla exercitationem quidem!</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ACORDEAON -->
+      <section class="container text-center p-5">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  pregunta 1
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  pregunta 2
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  pregunta 3
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- SECCION DEL TEAM-->
+      <section class="team text-center team-primary ">
+        <div class="container p-5">
+          <h1 class="text-white my-4">team</h1>
+          <div class="row">
+
+          <!-- CADA UNO DE LOS MIEMBROS-->
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1> persona 1</h1>
+                <!--tamaño-->
+                <img class="img-fluid rounded-circle  w-50" src="./Imagenes/person.png" alt="persona 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <!-- REDES SOCIALES-->
+                <div class="d-flex flex-row justify-content-center ">
+                  <div>
+                    <a href="./index.html"><i class="fab fa-facebook-square p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-instagram p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-github p-2"></i></a>
+                  </div>
+               </div>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1> persona 2</h1>
+                <img class="img-fluid rounded-circle w-50"  src="./Imagenes/person.png" alt="persona 2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- REDES SOCIALES-->
+                <div class="d-flex flex-row justify-content-center ">
+                  <div>
+                    <a href="./index.html"><i class="fab fa-facebook-square p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-instagram p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-github p-2"></i></a>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1> persona 3</h1>
+                <img class="img-fluid rounded-circle w-50"  src="./Imagenes/person.png" alt="persona 3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <!-- REDES SOCIALES-->
+                <div class="d-flex flex-row justify-content-center ">
+                  <div>
+                    <a href="./index.html"><i class="fab fa-facebook-square p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-instagram p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-github p-2"></i></a>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1> persona 4</h1>
+                <img class="img-fluid rounded-circle w-50"  src="./Imagenes/person.png" alt="persona 4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <!-- REDES SOCIALES-->
+                <div class="d-flex flex-row justify-content-center ">
+                  <div>
+                    <a href="./index.html"><i class="fab fa-facebook-square p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-instagram p-2"></i></a>
+                  </div>
+                  <div>
+                    <a href="./index.html"><i class="fab fa-github p-2"></i></a>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+
+    <!-- Bootstrap con javaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Termina Bootstrap con javaScript -->
+    
+</body>
+</html>
